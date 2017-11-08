@@ -57,7 +57,7 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(510, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(508, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -252,10 +252,9 @@
             this.ErrorLabel.ForeColor = System.Drawing.Color.Red;
             this.ErrorLabel.Location = new System.Drawing.Point(8, 306);
             this.ErrorLabel.Name = "ErrorLabel";
-            this.ErrorLabel.Size = new System.Drawing.Size(190, 23);
-            this.ErrorLabel.Visible = false;
+            this.ErrorLabel.Size = new System.Drawing.Size(0, 23);
             this.ErrorLabel.TabIndex = 4;
-
+            this.ErrorLabel.Visible = false;
             // 
             // MainWindow
             // 
@@ -263,7 +262,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(510, 390);
+            this.ClientSize = new System.Drawing.Size(508, 390);
             this.Controls.Add(this.ErrorLabel);
             this.Controls.Add(this.generateButton);
             this.Controls.Add(this.UserDetailsGroupBox);

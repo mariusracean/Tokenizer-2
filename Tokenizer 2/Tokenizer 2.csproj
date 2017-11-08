@@ -45,6 +45,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Tokenizer2\AuthenticationType.cs" />
+    <Compile Include="Tokenizer2\CipherUtility.cs" />
+    <Compile Include="Tokenizer2\TokenWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tokenizer2\TokenWindow.Designer.cs">
+      <DependentUpon>TokenWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tokenizer2\Settings.cs" />
     <Compile Include="Tokenizer2\Validation.cs" />
     <Compile Include="Tokenizer2\Users.cs" />
     <Compile Include="Tokenizer2\Country.cs" />
@@ -68,6 +77,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Tokenizer2\TokenWindow.resx">
+      <DependentUpon>TokenWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
